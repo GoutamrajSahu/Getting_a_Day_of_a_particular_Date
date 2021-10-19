@@ -16,6 +16,6 @@ public class GetDay {
             int month = dateArray.get(1);
             int year = dateArray.get(2);
             LocalDate date = LocalDate.of(year, month, day);
-            System.out.println(date.getDayOfWeek().toString());
+            System.out.println("The particular day is: "+ date.getDayOfWeek().toString());
         }
 }
